@@ -19,6 +19,6 @@ def get_snapple_fact():
 		for element in d:
 			element = str(element).strip('</p>')
 			element = element.strip('<p class="fact_detail">')
-			outfile.write(element + '\n')
+			outfile.write((''.join('"' + str(element) + ' lol.", ')))
 
 get_snapple_fact() 

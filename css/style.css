@@ -1,0 +1,18 @@
+body {
+	background-color: #fff;
+	position: center;
+}
+
+.main {
+	background-color: #FDDB4D;
+	padding: 20px;
+	position: center fixed;
+}
+
+.container {
+}
+
+#snapple-facts {
+	font-size: 20px;
+	height: 300px;
+}
